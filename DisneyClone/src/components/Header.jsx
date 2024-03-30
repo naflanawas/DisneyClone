@@ -35,7 +35,7 @@ function Header() {
   }
  ]
   return (
-    <div className='flex items-center gap-128 justify-between p-5'>
+    <div className='flex items-center justify-between p-5'>
       <div className='flex gap-8 items-center'>
       {/* if you want to create custom css,then use [] brackets in tailwind css */}
       <img src={logo} className='w-[80px] md:w-[115px] object-cover'/> 

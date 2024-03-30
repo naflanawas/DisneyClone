@@ -2,6 +2,7 @@
 
 import './App.css'
 import Header from './components/Header';
+import Sliders from './components/Sliders';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className=''>
       <Header/>
+      <Sliders/>
     </div>
   )
 }
