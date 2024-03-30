@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 
 import './App.css'
+import GenreMovieList from './components/GenreMovieList';
 import Header from './components/Header';
 import ProductionHouse from './components/ProductionHouse';
 import Sliders from './components/Sliders';
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <Sliders/>
       <ProductionHouse/>
+       <GenreMovieList/> 
     </div>
   )
 }
