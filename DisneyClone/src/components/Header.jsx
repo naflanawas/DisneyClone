@@ -35,7 +35,7 @@ function Header() {
   }
  ]
   return (
-    <div className='flex items-center justify-between p-5'>
+    <div className='flex items-center justify-between p-5 pr-10'>
       <div className='flex gap-8 items-center'>
       {/* if you want to create custom css,then use [] brackets in tailwind css */}
       <img src={logo} className='w-[80px] md:w-[115px] object-cover'/> 
@@ -62,7 +62,7 @@ function Header() {
       </div>
    </div>
    </div>
-      <img src='https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745' className='w-[40px] rounded-full'/>
+      <img src='https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745' className='w-[40px] rounded-full  '/>
   </div>
   )
 }
