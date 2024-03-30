@@ -2,6 +2,7 @@
 
 import './App.css'
 import Header from './components/Header';
+import ProductionHouse from './components/ProductionHouse';
 import Sliders from './components/Sliders';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className=''>
       <Header/>
       <Sliders/>
+      <ProductionHouse/>
     </div>
   )
 }
